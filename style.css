@@ -1,0 +1,30 @@
+body, html {
+  margin: 0;
+  padding: 0;
+}
+
+.header-search {
+  -webkit-appearance: none;
+  width: 80%;
+  height: 10%;
+  border: none;
+  background-color: pink;
+}
+
+h1 {
+  background-color: palegreen;
+}
+
+.navbar {
+  background-color: paleturquoise;
+}
+
+.hmovies {
+  background-color: palevioletred;
+}
+
+.pelicula {
+  background-color: blueviolet;
+}
+
+/*# sourceMappingURL=style.css.map */
