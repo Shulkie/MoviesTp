@@ -4,20 +4,37 @@ body, html {
     padding:0; 
 }
 
-.header-search{
+
+#cuteMovieSearch{
+display:flex;
+
+
+
+}
+
+.search{
     -webkit-appearance: none;
-   width: 80%;
+   width: 50%;
    height: 10%;
    border: none;
-   background-color: pink;
+   background-color:blue;
+  
    
 }
 
+
+
 h1{
     background-color: palegreen;
+    width:50%;
+    align-self: flex-end;
 }
 
 .navbar{
+    display: flex;
+    flex-direction: column;
+    width: 10%;
+    height: 100%;
     background-color: paleturquoise;
 
 }
@@ -29,4 +46,8 @@ h1{
 
 .pelicula{
     background-color: blueviolet;
+}
+.item-navegador{
+    width:100%;
+
 }
