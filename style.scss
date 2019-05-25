@@ -1,53 +1,65 @@
 
-body, html {
-    margin: 0;
-    padding:0; 
-}
+@import "_general";
 
 
-#cuteMovieSearch{
-display:flex;
-
-
-
-}
 
 .search{
     -webkit-appearance: none;
-   width: 50%;
-   height: 10%;
-   border: none;
-   background-color:blue;
-  
+   margin-left: 6vw;
+    width:95vw;
+   height: 70px;
+   background-color:green;
+   position: fixed;
+   top:0;
+ 
+   input{
+       width:100%;
+       height: 10vh;
+       border:none;
+       padding-left: 5vw;
+
+   }
    
 }
 
 
-
-h1{
-    background-color: palegreen;
-    width:50%;
-    align-self: flex-end;
-}
-
 .navbar{
-    display: flex;
-    flex-direction: column;
-    width: 10%;
+    top:0;
+    position:fixed;
+    width: 6vw;
     height: 100%;
     background-color: paleturquoise;
+    overflow:auto;
+    font-size: 11px;
+    
+    
 
-}
-
-.hmovies{
-    background-color: palevioletred;
-
-}
-
-.pelicula{
-    background-color: blueviolet;
 }
 .item-navegador{
-    width:100%;
+margin: 10vh 0;
+border-bottom: solid grey;
+}
 
+.imagenppal{
+    background-color: palevioletred;
+    width: 100%;
+    height: 80vh;
+}
+.movies{
+    display:flex;
+    justify-content: space-around;
+    
+}
+.hmovies{
+    
+    margin-left: 14vh;
+
+}
+
+ .pelicula{
+border: solid black;
+background-color: peachpuff;
+width: 180px;
+height: 100px;
+margin-left: 14vh;
 }
